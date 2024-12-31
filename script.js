@@ -72,7 +72,6 @@ function update() {
   if (head.x === food.x && head.y === food.y) {
     score++;
     scoreDisplay.textContent = `Score: ${score}`;
-    eatSound.play();
     food = {
       x: Math.floor(Math.random() * (canvas.width / gridSize)),
       y: Math.floor(Math.random() * (canvas.height / gridSize)),
