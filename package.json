@@ -1,0 +1,12 @@
+{
+      "name": "snake-game",
+      "version": "1.0.0",
+      "description": "A simple snake game",
+      "main": "index.js",
+      "scripts": {
+        "dev": "vite"
+      },
+      "devDependencies": {
+        "vite": "^4.5.2"
+      }
+    }
